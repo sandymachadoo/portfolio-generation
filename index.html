@@ -7,11 +7,12 @@
 		<meta name="author" content="Generation Brasil">
 		<meta name="keywords" content="HTML, CSS, JavaScript">
 		<link rel="icon" type="image/svg" href="./assets/img/favicon.svg" />
+		<link rel="stylesheet" href="./assets/css/style.css">
 		<title>Meu Perfil</title>
 	</head>
 	<body>
 		<header>
-			<div id="header_content">
+			<div id="header_content" class="flex">
 				<div id="titulo">
 					<h1>Sandy Machado</h1>
 				</div>
@@ -30,27 +31,29 @@
 			</div>
 		</header>
 		<main>
-			<section id="about">
+			<section id="about" class="flex_start">
 				<h2>Sobre mim</h2>
-				<div id="conteudo">
+				<div id="conteudo" class="flex">
 					<img
 						src="./assets/img/SandyMachado.png"
 						alt="Foto do criador desse conteudo"
+
+						class="img_profile"
 					/>
 
 					<article id="sobre_texto">
 						<p>
-							Sou Sandy Machado, desenvolvedora back-end apaixonada por inovação e desafios.
+							Olá, sou Sandy Machado, desenvolvedora back-end apaixonada por inovação e desafios.
 						    Estou cursando Análise e Desenvolvimento de Sistemas na UNINTER e minha principal motivação é usar a tecnologia para fazer a diferença, resolvendo problemas e criando soluções inovadoras. 
 							Nos meus momentos de lazer, adoro assistir filmes de terror e ouvir música eletrônica!
 						</p>
 					</article>
 				</div>
 			</section>
-			<section id="video">
+			<section id="video" class="flex_start">
 			
 				<h2>Meu vídeo favorito:</h2>
-				<div class="youtube">
+				<div id="youtube" class="flex">
 					<iframe width="560" height="315" src="https://www.youtube.com/embed/MlwBZ2MSNtE?si=oMIM92N0_EieWPLX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 				</div>
 
@@ -58,16 +61,16 @@
 
 		</main>
 
-		<footer>
+		<footer class="flex">
             <section id="redes_sociais">
 
-                    <a href="">
+                    <a href="https://www.linkedin.com/in/sandy-machado-/">
                         <img src="assets/img/linkedin.svg" alt="LinkedIn" />
                     </a>
-                    <a href="">
+                    <a href="https://github.com/sandymachadoo">
                         <img src="assets/img/github.svg" alt="Github" />
                     </a>
-                    <a href="">
+                    <a href="https://www.instagram.com/sxndysm/#">
                         <img src="assets/img/instagram.svg" alt="Instagram" />
                     </a>
 
